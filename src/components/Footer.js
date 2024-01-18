@@ -21,7 +21,7 @@ export default function Footer() {
           <EmailIcon />
         </Link>
       </div>
-      <p>&copy; 2024 juricvlatko.com</p>
+      <p>&copy; 2024 - Personal Portfolio</p>
     </div>
   );
 }

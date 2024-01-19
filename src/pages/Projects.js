@@ -34,11 +34,7 @@ export default function Projects() {
           <ProjectItem name="Photo Search app" image={PhotoApp} />
         </Link>
 
-        <Link
-          to="https://cryptopricesapp.netlify.app/"
-          target="_blank"
-          style={{ textDecoration: "none", color: "black" }}
-        >
+        <Link to="https://cryptopricesapp.netlify.app/">
           <ProjectItem name="Crypto App" image={CryptoApp} />
         </Link>
       </div>

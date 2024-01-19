@@ -1,0 +1,2 @@
+/* This rule will redirect any requests to '/projects/old-url' to '/projects' */
+/projects/old-url /projects 301

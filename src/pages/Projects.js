@@ -1,8 +1,9 @@
 import ProjectItem from "../components/ProjectItem";
-import CryptoApp from "../assets/crypto-app.png";
-import MovieApp from "../assets/movie-search-app.png";
-import PhotoApp from "../assets/photo-search-app.png";
-import TravelApp from "../assets/travel-list-app.png";
+import RandomAdviceApp from "../assets/random-advice.gif";
+
+import PhotoApp from "../assets/photo-search-app.gif";
+import TravelApp from "../assets/travel-list-app.gif";
+import WorldCountriesApp from "../assets/world-countries.gif";
 import "../styles/Projects.css";
 import { Link } from "react-router-dom";
 
@@ -11,6 +12,14 @@ export default function Projects() {
     <div className="projects">
       <h1>My Projects</h1>
       <div className="projectList">
+        <Link
+          to="https://search-the-world.netlify.app/"
+          target="_blank"
+          style={{ textDecoration: "none", color: "black" }}
+        >
+          <ProjectItem name="World Countries App" image={WorldCountriesApp} />
+        </Link>
+
         <Link
           to="https://travelingoo.netlify.app/"
           target="_blank"
@@ -23,14 +32,6 @@ export default function Projects() {
         </Link>
 
         <Link
-          to="https://filmoplex.netlify.app/"
-          target="_blank"
-          style={{ textDecoration: "none", color: "black" }}
-        >
-          <ProjectItem name="Movie Search App" image={MovieApp} />
-        </Link>
-
-        <Link
           to="https://photofindapp.netlify.app/"
           target="_blank"
           style={{ textDecoration: "none", color: "black" }}
@@ -39,11 +40,11 @@ export default function Projects() {
         </Link>
 
         <Link
-          to="https://cryptopricesapp.netlify.app/"
+          to="https://random-advice-giver.netlify.app/"
           target="_blank"
           style={{ textDecoration: "none", color: "black" }}
         >
-          <ProjectItem name="Crypto App" image={CryptoApp} />
+          <ProjectItem name="Random Advice Giver" image={RandomAdviceApp} />
         </Link>
       </div>
     </div>

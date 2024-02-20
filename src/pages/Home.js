@@ -19,10 +19,7 @@ export default function Home() {
             ReactJS, and developed a few interesting projects which you can see
             in the Projects page.
           </p>
-          <Link
-            to="https://www.linkedin.com/in/vlatko-juric-94bbb32a4/"
-            target="_blank"
-          >
+          <Link to="https://www.linkedin.com/in/vlatkojuric/" target="_blank">
             <LinkedInIcon />
           </Link>
           <Link to="https://github.com/vlatkojuric/vlatkojuric" target="_blank">

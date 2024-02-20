@@ -14,10 +14,14 @@ export default function Projects() {
         <Link
           to="https://travelingoo.netlify.app/"
           target="_blank"
-          style={{ textDecoration: "none", color: "black" }}
+          style={{
+            textDecoration: "none",
+            color: "black",
+          }}
         >
           <ProjectItem name="Travel List App" image={TravelApp} />
         </Link>
+
         <Link
           to="https://filmoplex.netlify.app/"
           target="_blank"

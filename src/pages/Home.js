@@ -14,7 +14,7 @@ export default function Home() {
             I recently graduated at NeueFische - School and Pool for Digital
             Talent. I have an excellent knowledge of English and German
             language. My goal is to join the software-development world as a
-            junior developer. I have good knowledge of ES6, CSS and basic of
+            Frontend Developer. I have good knowledge of ES6, CSS and basic of
             ReactJS. After graduation I started working more with JavaScript and
             ReactJS, and developed a few interesting projects which you can see
             in the Projects page.

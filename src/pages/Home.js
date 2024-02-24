@@ -8,16 +8,20 @@ export default function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, My Name is Vlatko</h2>
+        <h2>Hi, I'm Vlatko,Your Next Software Engineer</h2>
         <div className="prompt">
           <p>
-            I recently graduated at NeueFische - School and Pool for Digital
-            Talent. I have an excellent knowledge of English and German
-            language. My goal is to join the software-development world as a
-            Frontend Developer. I have good knowledge of ES6, CSS and basic of
-            ReactJS. After graduation I started working more with JavaScript and
-            ReactJS, and developed a few interesting projects which you can see
-            in the Projects page.
+            I love answers! <br />
+            <br />
+            Previously an Neue Fische- School and Pool for Digital Talent
+            Trainee and I am always thinking about code and this passion often
+            leads me to solve my coding problem, while I’m jogging, watching
+            documentaries, or cooking fajitas for breakfast. I'll figure out the
+            answer then rush to my computer to see it work.
+            <br />
+            <br /> My name is Vlatko Juric. I’m a passionate software developer
+            who will do whatever it takes to find an answer. Get in touch to
+            find the next answer together!
           </p>
           <Link to="https://www.linkedin.com/in/vlatkojuric/" target="_blank">
             <LinkedInIcon />
@@ -47,7 +51,9 @@ export default function Home() {
           <li className="item">
             <h2>Other skills</h2>
             <span>
-              HTML5, CSS, Git, Github, Agile Workflow, Kanban, Styled-Components
+              HTML5, CSS3,ECMAScript 6,Responsive Design, Git, Github, Agile
+              Workflow,Scrum, Kanban, Styled-Components, Pair programming,REST
+              API
             </span>
           </li>
         </ol>

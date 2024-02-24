@@ -7,7 +7,6 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,6 +59,39 @@
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
+    margin-bottom: 70px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .about h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+  }
+
+  footer {
+    margin-top: 50px;
   }
 
   .about .prompt {
